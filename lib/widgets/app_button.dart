@@ -23,9 +23,9 @@ class AppButton extends StatelessWidget {
       width: double.infinity,
       height: 58,
       child: Opacity(
-        opacity: isDisabled ? .5: 1,
+        opacity: isDisabled ? .5 : 1,
         child: ElevatedButton(
-          onPressed:isDisabled ? null: onTap,
+          onPressed: isDisabled ? null : onTap,
           style: ButtonStyle(
             backgroundColor: WidgetStatePropertyAll(backgroundColor),
             shape: WidgetStatePropertyAll(

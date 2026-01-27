@@ -5,7 +5,7 @@ import 'package:kiru/features/splash/presentation/ui/splash_screen.dart';
 import 'package:kiru/home/home_screen.dart';
 import 'package:kiru/login/login_screen.dart';
 import 'package:kiru/recomendations/recomendations.dart';
-import 'package:kiru/register/presentation/ui/register.dart';
+import 'package:kiru/features/register/presentation/ui/register.dart';
 
 final router = GoRouter(
   routes: [

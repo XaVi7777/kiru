@@ -13,4 +13,9 @@ static const _password = '123456';
     await Future.delayed(Duration(seconds: 2));
     return email == _email && password == _password;
   }
+
+  Future<bool> registern(String email, String password) async {
+    await Future.delayed(Duration(seconds: 2));
+    return email == _email && password == _password;
+  }
 }
