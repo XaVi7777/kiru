@@ -6,7 +6,7 @@ static const _password = '123456';
   Future<bool> authMe() async {
     await Future.delayed(Duration(seconds: 2));
     
-    return false;
+    return true;
   }
 
   Future<bool> login(String email, String password) async {

@@ -2,7 +2,7 @@ import 'package:go_router/go_router.dart';
 import 'package:kiru/favorites/favorites.dart';
 import 'package:kiru/features/auth/presentation/ui/auth_screen.dart';
 import 'package:kiru/features/splash/presentation/ui/splash_screen.dart';
-import 'package:kiru/home/home_screen.dart';
+import 'package:kiru/features/home/presentation/ui/home_screen.dart';
 import 'package:kiru/login/login_screen.dart';
 import 'package:kiru/recomendations/recomendations.dart';
 import 'package:kiru/features/register/presentation/ui/register.dart';
