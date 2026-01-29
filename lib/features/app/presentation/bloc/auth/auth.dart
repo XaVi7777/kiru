@@ -76,7 +76,7 @@ class AuthBloc extends Bloc<AuthEvent, AuthState> {
       if (state is! AuthInitialState) {
         emit(AuthInitialState());
       }
-      final response = await authRepository.registern(
+      final response = await authRepository.register(
         event.email,
         event.password,
       );

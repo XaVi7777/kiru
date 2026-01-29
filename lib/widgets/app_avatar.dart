@@ -18,10 +18,10 @@ class AppAvatar extends StatelessWidget {
             child: Icon(Icons.person),
           )
         : CachedNetworkImage(
-        imageUrl: imageUrl!,
-        placeholder: (context, url) => CircularProgressIndicator(),
-        errorWidget: (context, url, error) => Icon(Icons.error),
-     );
+            imageUrl: imageUrl!,
+            placeholder: (context, url) => CircularProgressIndicator(),
+            errorWidget: (context, url, error) => Icon(Icons.error),
+          );
     return CircleAvatar(radius: 42, child: ClipOval(child: image));
   }
 }
